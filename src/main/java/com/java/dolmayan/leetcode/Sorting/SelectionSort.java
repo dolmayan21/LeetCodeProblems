@@ -9,12 +9,8 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         int arr[] = {5,4,10,8,7,6,1,2};
-
         selectionSort(arr);
-
-
         System.out.println(Arrays.toString(arr));
-
     }
     public static void selectionSort(int[] arr) {
         // Mutates arr so that it is sorted via selecting the minimum element and
