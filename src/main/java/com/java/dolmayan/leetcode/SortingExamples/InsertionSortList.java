@@ -1,4 +1,4 @@
-package com.java.dolmayan.leetcode.Sorting;
+package com.java.dolmayan.leetcode.SortingExamples;
 
 
 /*
