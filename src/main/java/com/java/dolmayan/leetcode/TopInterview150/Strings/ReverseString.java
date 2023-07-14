@@ -1,4 +1,4 @@
-package com.java.dolmayan.leetcode.TopInterview150;
+package com.java.dolmayan.leetcode.TopInterview150.Strings;
 
 import com.sun.jdi.ArrayReference;
 

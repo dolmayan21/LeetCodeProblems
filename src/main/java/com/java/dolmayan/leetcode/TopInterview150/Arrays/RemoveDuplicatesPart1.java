@@ -1,4 +1,4 @@
-package com.java.dolmayan.leetcode.TopInterview150;
+package com.java.dolmayan.leetcode.TopInterview150.Arrays;
 
 import java.sql.SQLOutput;
 
