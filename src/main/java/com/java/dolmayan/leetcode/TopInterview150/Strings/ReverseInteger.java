@@ -10,17 +10,23 @@ public class ReverseInteger {
 
         reverse(x);
     }
-    public static int reverse(Integer x) {
+    public static int reverse(int x) {
 
-         int temp ;
+        char temp;
 
-         char [] digits = x.toCharArray;
-
-
-         for(int i = 0; i< )
+        char [] charArray = Integer.toString(x).toCharArray();
 
 
-        return x;
+        for(int i = 0; i<charArray.length/2; i++){
+            temp = charArray[charArray.length-i-1];
+            charArray[charArray.length-i-1] = charArray[i];
+            charArray[i] = temp;
+        }
+
+        int number = Integer.parseInt(new String(charArray));
+
+        System.out.println(number);
+        return number;
     }
 
 
