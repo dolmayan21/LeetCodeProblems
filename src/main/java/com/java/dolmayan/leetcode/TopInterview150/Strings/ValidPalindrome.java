@@ -7,6 +7,31 @@ public class ValidPalindrome {
         System.out.println(isPalindrome(s));
     }
 
+    /**
+     **** Better solution ****
+     */
+    public static boolean isPalindrome(String s) {
+        short len = (short)s.length();
+        int left = 0;
+        int right = len -1;
+        while(left < right){
+            char chl = s.charAt(left);
+            char chr = s.charAt(right);
+
+            if(!Character.isLetterOrDigit(chl)) left++;
+            else if(!Character.isLetterOrDigit(chr)) right--;
+            else if(Character.toLowerCase(chl) != Character.toLowerCase(chr)) return false;
+            else {
+                left++;
+                right--;
+            }
+        }
+
+        return true;
+    }
+
+    /**** Not bad at all.
+     *
     public static boolean isPalindrome(String s) {
         s = s.replace(" ","").replaceAll("[^A-Za-z0-9]", "").toLowerCase();
 
@@ -19,4 +44,6 @@ public class ValidPalindrome {
         }
         return false;
     }
+
+     **/
 }
