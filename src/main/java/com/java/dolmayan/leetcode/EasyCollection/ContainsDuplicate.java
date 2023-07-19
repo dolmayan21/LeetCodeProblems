@@ -1,6 +1,5 @@
-package com.java.dolmayan.leetcode.EasyColletion;
+package com.java.dolmayan.leetcode.EasyCollection;
 
-import java.sql.SQLOutput;
 import java.util.HashSet;
 import java.util.Set;
 

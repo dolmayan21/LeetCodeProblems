@@ -1,4 +1,4 @@
-package com.java.dolmayan.leetcode.EasyColletion;
+package com.java.dolmayan.leetcode.EasyCollection;
 
 public class RemoveDuplicatesPart1 {
 

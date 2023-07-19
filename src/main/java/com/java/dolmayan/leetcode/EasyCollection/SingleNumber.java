@@ -1,8 +1,6 @@
-package com.java.dolmayan.leetcode.EasyColletion;
+package com.java.dolmayan.leetcode.EasyCollection;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.Stack;
 
 public class SingleNumber {
