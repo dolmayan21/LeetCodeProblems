@@ -2,7 +2,7 @@ package com.java.dolmayan.leetcode.OrderedPath;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class TwoSum1 {
 
 
     /**

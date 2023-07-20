@@ -1,6 +1,6 @@
 package com.java.dolmayan.leetcode.OrderedPath;
 
-public class isPalindrome {
+public class isPalindrome9 {
 
     /**
      * Given an integer x, return true if x is a palindrome,
