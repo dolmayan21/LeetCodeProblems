@@ -14,25 +14,16 @@ public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
 
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer,Integer> maps = new HashMap<>();
 
-
-        for(int i =0; i< nums.length; i++){
-
+        for(int i=0; i< nums.length; i++){
             int temp = target - nums[i];
-
-            if(map.containsKey(temp)){
-                return new int[]{map.get(temp), i};
+            if(maps.containsKey(temp)){
+                return new int[]{maps.get(temp), i};
             }
-
-            map.put(nums[i], i);
-
+            maps.put(nums[i],i);
         }
-
-
-
-
-        return new int[]{-1,-1};
+        return new int[]{-1, -1};
     }
 
 }
